@@ -14,4 +14,4 @@ function sayHello(input) {
     // return "Hello, " + input + "!";  (refactored)
     // return `Hello, ${input}!`;       (refactored)
     // the above function can be refactored as such
-}
+//(disregard message) additional comment needed to allow working tree to push git for exercise #7
