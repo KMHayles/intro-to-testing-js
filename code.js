@@ -13,4 +13,5 @@ function sayHello(input) {
     }
     // return "Hello, " + input + "!";  (refactored)
     // return `Hello, ${input}!`;       (refactored)
+    // the above function can be refactored as such
 }
