@@ -1,18 +1,18 @@
 // Unit tests for the helloWorld function
-describe('isFive', function() {
-    it('should be a defined function', function() {
-        expect(typeof isFive).toBe('function');
-    });
-    it('should return a true or false when called', function() {
-        expect(typeof isFive()).toBe('boolean');
-    });
-    it('should return true when passed 5', function() {
-        expect(isFive(5)).toBe(true);
-    })
-    it('should return false when passed "5"', function() {
-        expect(isFive("5")).toBe(false);
-    })
-});
+// describe('isFive', function() {
+//     it('should be a defined function', function() {
+//         expect(typeof isFive).toBe('function');
+//     });
+//     it('should return a true or false when called', function() {
+//         expect(typeof isFive()).toBe('boolean');
+//     });
+//     it('should return true when passed 5', function() {
+//         expect(isFive(5)).toBe(true);
+//     });
+//     it('should return false when passed "5"', function() {
+//         expect(isFive("5")).toBe(false);
+//     });
+// });
 
 // describe('helloWorld', function() {
 //     it('should be a defined function', function() {
@@ -50,6 +50,9 @@ describe('sayHello', function(){
     });
     it('should return the string "Hello, False!" when executed', function() {
         expect(sayHello(false)).toBe("Hello, World!");
+    });
+    it('should return object passed "null"', function() {
+        expect(sayHello("null")).toBe('true');
     });
 });
 

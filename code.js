@@ -22,18 +22,22 @@ function sayHello(input) {
     if (input === undefined) {
         return "Hello, World!";
     }
+    if (input === 'null') {
+        return "true";
+    }
 }
-    //return `Hello, ${input}!`; (refactored)
-    // return "Hello, " + input + "!";  (refactored)
-    // the above function can be refactored as such
 
-function isFive(input){
-    if(input === "5"){
-        return false;
-    }
-    if (input != false) {
-        return true;
-    } else if (input === 5) {
-        return true;
-    }
-}
+    //return `Hello, ${input}!`; (refactored without boolean)
+    // return "Hello, " + input + "!";  (refactored without boolean)
+
+
+// function isFive(input){
+//     if(input === "5"){
+//         return false;
+//     }
+//     if (input != false) {
+//         return true;
+//     } else if (input === 5) {
+//         return true;
+//     }
+// }
