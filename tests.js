@@ -93,7 +93,7 @@
 //     it('should return true if the input is a Vowel', function() {
 //       expect(isVowel("a")).toBe(true);
 //     });
-//     it('should return true if the input is an upper cased Vowel', function() {
+//     it('should return true if the input is an upper-cased Vowel', function() {
 //         expect(isVowel("A")).toBe(true);
 //     });
 //     it('should return false if the input is not a Vowel', function() {
@@ -104,5 +104,20 @@
 //     });
 //     it('should return false if the input is empty', function() {
 //         expect(isVowel()).toBe(true);
+//     });
+// });
+
+// describe('addNum', function() {
+//     it('should be a defined function', function() {
+//       expect(typeof addNum).toBe('function');
+//     });
+//     it('should return a number value when called no matter what input', function() {
+//       expect(typeof addNum('num1','num2' )).toBe('number');
+//     });
+//     it('should return true if inputs is NaN', function() {
+//       expect(addNum("banana", "split")).toBeNaN();
+//     });
+//     it('should return true if input is NaN', function() {
+//         expect(addNum()).toBeNaN();
 //     });
 // });

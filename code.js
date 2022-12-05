@@ -65,3 +65,8 @@
 //     return true;
 //     }
 // }
+
+// function addNum(input1, input2) {
+//     let sum = (parseFloat(input1) + parseFloat(input2));
+//     return sum;
+// }
