@@ -41,6 +41,27 @@
 //     }
 // }
 
-function isEven(input) {
-    return input % 2 === 0;
-} // ********** need to readdress boolean input for false **********
+// function isEven(input) {
+//     return input % 2 === 0;
+// }
+
+//could not get "return a boolean when called" to pass, used longer expressed syntax to pass test. Left to understand the 'why'.
+// function isVowel(input) {
+//     if (input.length === 1) {
+//         let vowels = ["a", "e", "i", "o", "u"];
+//         let isVowel = false;
+//         for (e in vowels) {
+//             if (vowels[e] === input) {
+//                 isVowel = true;
+//             }
+//         }
+//         return true;
+//     }
+// }
+
+// function isVowel(input){
+//     if(input === "a" || input === "e" || input === "i" || input === "o" || input === "u");
+//     {
+//     return true;
+//     }
+// }
